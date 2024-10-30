@@ -5,5 +5,32 @@ header {
 background-color: #2492E1FF;
   color: #ffffff;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 0
 }
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.post {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
